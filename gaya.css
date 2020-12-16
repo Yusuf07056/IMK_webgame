@@ -1,0 +1,168 @@
+@font-face{font-family: "gaming"; src: url(8514oem.ttf);}
+.kotakup{
+    position: sticky;
+    margin: 0%;
+    top: 0px;
+    z-index: 1;
+}
+.kotakupp{
+
+    background-color: #242124;
+    border: solid#1a181a;
+}
+.kotakupp1{
+    background-color: #1a181a; width: 50%;
+    border-radius: 20px;
+}
+.garisup{
+    background-color:#1a181a;
+    width: 100%; color: #ffffff;
+}
+#tombol{
+    background-color: #1a181a; 
+    border: solid#1a181a; 
+    font-family: 'Times New Roman'; 
+    color: #ffffff;font-size: 18pt; 
+    float: right;font-weight: bold;
+    text-decoration: none   ;
+}
+#tombolpopup{
+    background-color: #1a181a; 
+    border: solid  #1a181a;
+    font-family: 'Times New Roman'; 
+    color: #ffffff;
+    font-size: 18pt; 
+    float: left;font-weight: bold;
+    cursor: pointer;
+}
+#tombolmenu{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1a181a; 
+    color: #ffffff;
+    font-size: 18pt;
+    border: solid#3a363a;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    background:url(BGhome.png);
+}
+.desainbawah1{
+    background-color: #242124a6;
+    border: solid #111111;
+    margin-top: 10px;
+}
+.desainbawah2{
+    color: #f1f1f1; 
+    font-size:12pt; 
+    text-align: justify; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.desainbawah2 h3:hover{
+    color: #f1f1f1; 
+    font-size:12pt; 
+    text-align: justify; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.desainbawah2 h3:hover{
+    color: #f1f1f1; 
+    font-size:12pt; 
+    text-align: justify; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.desainbawah3{
+    color: #f1f1f1; 
+    font-size:25pt;
+    text-align: justify; 
+    font-family: 'gaming'; 
+    font-weight:bold;
+    font-size: 10pt;
+    padding: 20px;
+}
+.header{
+    color: #f1f1f1; font-size:12pt;
+    text-align: center; font-family: 'gaming';
+     font-weight:bold;
+    font-size: 50pt;
+}
+/*desain untuk pop up sidebar*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#1a181a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav option {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #1a181a;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav option :hover {
+    color: #f1f1f1;
+}
+.sidenav select {
+    padding: 5px 5px 5px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #1a181a;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav select :hover {
+    color: #f1f1f1;
+}
+.sidenav label {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav label:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
