@@ -11,7 +11,7 @@
     <div class="kotakup">
         <div align = "center" class="kotakup kotakupp" >
 
-            <img src="logonya.png" width="5%" align = "center">
+            <img src="logops.com.png" width="5%" align = "center">
 
             <div align = "center" class="garisup" >
                 <h1 >IGN 
@@ -45,41 +45,51 @@
                 <button class="closebtn" onclick="closeNav()">&times;</button >
                 <a href="about.html">ABOUT</a>
                 <a href="news.html">NEWS</a>
-                <table>
-                    <tr>
-                        <td>
-                            <label>TECH</label>
-                        </td>
-                        <td>
-                            <select name="kategori" id="kategori">
-                                <form action="">
-                                    <option value="playstation">PLAYSTATION</option>
-                                </form>
-                                <option value="pc">PC</option>
-                                <option value="xbox">XBOX</option>
-                                <option value="nintendo">NINTENDO</option>
-                            </select>
-                        </td>
-                    </tr>
-                </table>
-                <a href="#"></a>
+                <div class="dropdown">
+                    <a href="#">TECH</a>
+                    <div class = "dropdown-content">
+                        <a href="ps.html">PLAYSTATION</a>
+                        <a href="PC.html">PC</a>
+                        <a href="XBOX.html">XBOX</a>
+                        <a href="NINTENDO.html">NINTENDO</a>
+                    </div></div>
             </div>
 
             <div class="desainbawah1">
-
-                <table>
-                    <th align="center">
-                        <img src="logonya.png" width="50%" style="float: right;">
-                    </th>
-                    <tr align="center">
-                        <p class="header">
-                            WELCOME
-                        </p>
-                    </tr>
-                </table>
+                
                 
             </div>
+            <!-- Slideshow -->
+            <div class="slideshow-container">
 
+                <!-- isi nya -->
+                <div class="mySlides fade">
+                <img src="slide show.png" style="width: 100%;">
+                <div class="text"> HEADLINE <br> <a href="#">CLICK HERE</a></div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="slide show.png" style="width: 100%;">
+                    <div class="text"> HEADLINE <br> <a href="#">CLICK HERE</a></div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="slide show.png" style="width: 100%;">
+                    <div class="text"> HEADLINE <br> <a href="#">CLICK HERE</a></div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
             <div class="desainbawah1">
                 <p class="desainbawah3">
 
